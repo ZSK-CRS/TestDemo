@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.RadioGroup;
 
-import cn.example.testdemo.view.MatrixDemoOne;
+import cn.example.testdemo.view.matrix.MatrixDemoOne;
 
 
 public class MainActivity extends AppCompatActivity {
