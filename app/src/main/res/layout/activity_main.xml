@@ -14,7 +14,6 @@
         android:layout_weight="1" />
 
 
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="40dp"
@@ -33,43 +32,46 @@
         android:paddingRight="20dp">
 
         <RadioButton
-            android:checked="true"
-            android:layout_weight="1"
             android:id="@+id/button0"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checked="true"
             android:text="0" />
 
         <RadioButton
-            android:layout_weight="1"
             android:id="@+id/button1"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_weight="1"
             android:text="1" />
 
         <RadioButton
-            android:layout_weight="1"
             android:id="@+id/button2"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_weight="1"
             android:text="2" />
 
 
         <RadioButton
-            android:layout_weight="1"
             android:id="@+id/button3"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_weight="1"
             android:text="3" />
 
         <RadioButton
-            android:layout_weight="1"
             android:id="@+id/button4"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_weight="1"
             android:text="4" />
-
-
     </RadioGroup>
+
+    <cn.example.testdemo.view.camera.MapView
+        android:id="@+id/map_view"
+        android:layout_width="300dp"
+        android:layout_height="300dp" />
 
 </LinearLayout>
