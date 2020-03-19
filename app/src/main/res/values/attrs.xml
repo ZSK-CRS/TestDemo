@@ -3,4 +3,19 @@
     <declare-styleable name="MapView">
         <attr name="mv_background" format="reference" />
     </declare-styleable>
+
+    <declare-styleable name="CircleNavication">
+        <attr name="radioChildDimen" format="float" />
+        <attr name="radioCenterDimen" format="float" />
+        <attr name="radioPadding" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="DepressionNavication">
+        <attr name="itemWidth" format="integer|reference" />
+        <attr name="itemHeight" format="integer|reference" />
+        <attr name="itemContainerWidth" format="integer|reference" />
+        <attr name="itemContainerHeight" format="integer|reference" />
+        <attr name="paddingTopBottom" format="integer|reference"/>
+        <attr name="paddingLeftRight" format="integer|reference"/>
+    </declare-styleable>
 </resources>
