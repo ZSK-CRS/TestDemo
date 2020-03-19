@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".view.Bt1Activity">
+    tools:context=".activity.Bt1Activity">
 
     <cn.example.testdemo.view.matrix.MatrixDemoOne
         android:id="@+id/matrix_view"

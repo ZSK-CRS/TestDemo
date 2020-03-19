@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
-    tools:context=".view.Bt3Activity">
+    tools:context=".activity.Bt3Activity">
 
     <cn.example.testdemo.view.circle.CircleNavication
         android:id="@+id/circlemenu"

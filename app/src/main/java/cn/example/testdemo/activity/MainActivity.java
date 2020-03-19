@@ -1,21 +1,11 @@
-package cn.example.testdemo;
+package cn.example.testdemo.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.animation.Animator;
-import android.animation.AnimatorListenerAdapter;
-import android.animation.AnimatorSet;
-import android.animation.ObjectAnimator;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
-import android.widget.RadioGroup;
 
-import cn.example.testdemo.view.Bt1Activity;
-import cn.example.testdemo.view.Bt2Activity;
-import cn.example.testdemo.view.Bt3Activity;
-import cn.example.testdemo.view.camera.MapView;
-import cn.example.testdemo.view.matrix.MatrixDemoOne;
+import cn.example.testdemo.R;
 
 
 public class MainActivity extends AppCompatActivity {
